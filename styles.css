@@ -202,3 +202,11 @@ padding: 7% 0% 10% 45%;
 .contact .col-line .text{
     width: 80%;
 }
+
+.icon-svg{
+        margin-left: 20px;
+        display: flex ;
+        justify-content: flex-start;
+        gap: 20px;
+}
+
