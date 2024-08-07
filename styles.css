@@ -6,7 +6,7 @@ body{
 
 #container{
 min-height: auto;
-width: 30%;
+width: 33%;
 margin: auto;
 border-width: 3px 10px 12px 0; /* establece el ancho del borde */
 border-style: solid;/* establece el estilo del borde*/
@@ -33,7 +33,7 @@ padding: 7% 0% 10% 45%;
 
 
 #contenido{
-    height: 80vh;
+    height: 73vh;
     background-color: white;
     padding-left: 45%;
     padding-top: 5%;
@@ -44,9 +44,9 @@ padding: 7% 0% 10% 45%;
 #columna{
     position: absolute;
     top: 0px;
-    left: 5%;
+    left: 1%;
     background-color: #283D3D;
-    width: 35%;
+    width: 42%;
     height: 96%;
     padding: 5% 1% 1% 1%;
     color: #ffffff;
@@ -65,7 +65,7 @@ padding: 7% 0% 10% 45%;
     color: #ffffff;
     background-color: #398ca7;
     border-radius: 5px;
-    margin: 60px 0px;
+    margin: 20px 0px;
     font-size: 0.8em;
     font-weight: bold;
 }
@@ -96,7 +96,7 @@ padding: 7% 0% 10% 45%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
-    top: 13%;
+    top: 16%;
     left: 36%;
     z-index: 1;
 }
@@ -113,7 +113,7 @@ padding: 7% 0% 10% 45%;
     width: 70px;
     height: 70px;
     background-color: #ffffff;
-    bottom: 7%;
+    bottom: 2%;
     right: 6%;
 }
 
@@ -204,9 +204,71 @@ padding: 7% 0% 10% 45%;
 }
 
 .icon-svg{
-        margin-left: 20px;
+        margin-left: 10px;
         display: flex ;
         justify-content: flex-start;
         gap: 20px;
 }
 
+@media (max-width:830px){
+    #columna{
+        position: relative;
+        top: 0px;
+        left: 1%;
+        background-color: #283D3D;
+        width: 90%;
+        height: 96%;
+        padding: 5% 1% 1% 1%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #contenido{
+        height: 73vh;
+        background-color: white;
+        padding-left: 0%;
+        padding-top: 5%;
+        border-radius: 0 0 50px 0;
+    }
+
+    #encabezado{   
+        color: white;
+        padding: 7% 0% 10% 0%;
+    }
+
+    #c-1{
+        width: 30px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+        top: 1%;
+        left: 80%;  
+        z-index: 1;}
+
+        #c-2{
+            width: 40px;
+            height: 40px;
+            background-color: #ffffff;
+            top: 44%;
+            left: 64%;
+            z-index: 1;}
+
+            #c-4{
+                width: 30px;
+                height: 30px;
+                background-color: #ffffff;
+                bottom: 2%;
+                right: 6%;}
+        
+                .title-columna-contenido{
+                    padding: 5px;
+                    color: #ffffff;
+                    background-color: #00f03470;
+                    border-radius: 5px;
+                    margin: 20px 0px;
+                    font-size: 0.8em;
+                    font-weight: bold;
+                }
+}
